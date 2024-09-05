@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+</head>
+<body>
+    <div id="product-list"></div>
+    <script>
+        var productList = [
+            {
+                 "id": "1",
+    "name": "Men Navy Blue Solid Sweatshirt",
+    "preview": "https://levi.in/cdn/shop/files/596380202_01_Style_Shot_7687147c-7788-4c98-a5fb-82a1bb01e2b9.jpg?v=1702388180",
+    "photos": [
+      "https://levi.in/cdn/shop/files/596380202_01_Style_Shot_7687147c-7788-4c98-a5fb-82a1bb01e2b9.jpg?v=1702388180",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSBzstTthX3uqFXVTkiXS4RYu-6B5XHk48aVLye006Jdg2DOjHWO7KngF-yj5DLYK8Q__j0jK85KT29IB14wclVIXtS4aiMnx9b-LVjyABH&usqp=CAc",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQH2J9invIpXH-DEJ9-POPasjkF35KlFADwxiSKCRs6_tiS2obhdhlGqs_uD5vWxdJLlNOZ6yFeca3rDUW23aoOWDzD554Qq2xtTO4d8bYSOU_l14vo6lPXv0SDIj3X9DxtxVmSm0A&usqp=CAc",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTJl55ZySuBIhVip1g-lYDBsXJOKZwIYj930C46LrGTbNehiNqczOtzSpamt-MTNMUqLFhFDfp2Q9F5B4eSzTY4oK-y2SZtcWvL2Yc4EdoMXikxBE6CixW5&usqp=CAc",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS20XAKUUDQC7EbUbTULnUX9hxIep7v-dO5eg-vzpHob8OvUqdAd4TxPlnSQitrYSOZi1vrk1z7hJxaofT0oKUB9gKUoyC2AWQB-IsWNqcA20JdYU-uvPqsWw&usqp=CAc"
+    ],
+    "description": "Navy solid sweatshirt with patchwork, has a round neck, long sleeves, straight hem",
+    "size": [
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "isAccessory": false,
+    "brand": "United Colors of Benetton",
+    "price": 2599
+  },
+  {
+    "id": "2",
+    "name": "Men Black MAMGP T7 Sweat Sporty Jacket",
+    "preview": "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/1568363/2016/10/13/11476359186519-PUMA-Black-Jacket-9151476359186257-1.jpg",
+    "photos": [
+      "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/1568363/2016/10/13/11476359186519-PUMA-Black-Jacket-9151476359186257-1.jpg",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTSO-IEDekoBHMwCHzkxwIgd81zw_-P-PD_p67CP5_RkfclFSVMW4RQu0fEREbRc-e1YVE7-kJOVx6M1P2ZL2jd7rXl1qyVInKO355jZThP",
+      "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS-W5MG_fsUS1YsQzjUbgo1Ku8hhUfq_bYkMfLQCN5tSdX3_zWPiDVWBV_sNyNJtZr44pcqgk8Sx7PsvZwG6Qrka6QmVjpPPa-lZlT7yZ7aWuiBoxb3GMYX"
+    ],
+    "description": "Black solid sporty jacket, has a mock collar, 3 pockets, zip closure, long sleeves, straight hem, unlined lining",
+    "size": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "isAccessory": false,
+    "brand": "Puma",
+    "price": 7999
+  },
+  {
+    "id": "3",
+    "name": "Men Black Action Parkview Lifestyle Shoes",
+    "preview": "https://5.imimg.com/data5/SELLER/Default/2022/12/HJ/HA/XP/4224944/office-84-blk-500x500.jpg",
+    "photos": [
+      "https://5.imimg.com/data5/SELLER/Default/2022/12/HJ/HA/XP/4224944/office-84-blk-500x500.jpg",
+      "https://m.media-amazon.com/images/I/71YzQvFBN6L._AC_UY1000_.jpg",
+      "https://img.tatacliq.com/images/i10/437Wx649H/MP000000010182019_437Wx649H_202304051434311.jpeg",
+      "https://m.media-amazon.com/images/I/71J8xzqxVuL._AC_UY1000_.jpg",
+      "https://img.tatacliq.com/images/i12/437Wx649H/MP000000018287754_437Wx649H_202307112253331.jpeg",
+      "https://5.imimg.com/data5/SELLER/Default/2023/3/JN/RV/WH/150793350/am-1024-bk-wht-500x500.JPG"
+    ],
+    "description": "Flaunt an effortless look with this ultimate pair of black coloured formal shoes from the house of Hush Puppies. Let the sun go down for uncomfortable shoes, as you opt for this pair of formal shoes that is crafted using comfortable TPR (thermoplastic rubber) sole. Pair these formal shoes with a shirt and trousers to look absolutely handsome",
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "isAccessory": false,
+    "brand": "Hush Puppies",
+    "price": 6999
+  },
+  {
+    "id": "4",
+    "name": "Women Black Solid Lightweight Leather Jacket",
+    "preview": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRBHSf8Lx1Yi6CAt0HRkzrtsq9FXuZUau42zeUcdt2W2yAE1eCau7NDGm2tkLgnNVK_QaFmc9vXdQd81gd8m9iIBiaKqfHFbZqfIpKtEWtiVfFWuTsUIB9nmkEfLxmx5n0OuHIGjZo&usqp=CAc",
+    "photos": [
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRBHSf8Lx1Yi6CAt0HRkzrtsq9FXuZUau42zeUcdt2W2yAE1eCau7NDGm2tkLgnNVK_QaFmc9vXdQd81gd8m9iIBiaKqfHFbZqfIpKtEWtiVfFWuTsUIB9nmkEfLxmx5n0OuHIGjZo&usqp=CAc",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQhiiYh5dV2ipqrC1CsCqibgf4Cz-4O2TC-CYSyB5YA_7xvzRi5m2IzxLidFy0CpGHHJc3KGdLpe-r_p7yHdx5Buhx-Ppgc7Lwl_vwnYhCl_pas_PBlnuUJGAtoCOHolSDrSTh-Y3qv5PQ&usqp=CAc",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTUBrw1XAoMtnT85RKO4cJMCh5OP0aospQTyyv5lwSDoDPDGXYmHf4MUbGxQHndRntSfej19dpytKmW_exDMIo7bcLK4AnB5FwjMNONcMOa&usqp=CAc",
+      "https://images-cdn.ubuy.co.in/6520da84ccac64121565003b-women-motorcycle-jacket-zipper-long.jpg",
+      "https://i.etsystatic.com/36467467/r/il/6b89a3/4425222918/il_570xN.4425222918_q5bn.jpg"
+    ],
+    "description": "Black solid leather jacket, has a spread collar, 3 pockets, zip closure, long sleeves, straight hem, polyester lining",
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "isAccessory": false,
+    "brand": "BARESKIN",
+    "price": 9999
+  },
+  {
+    "id": "5",
+    "name": "Women Blue Solid Shirt Dress",
+    "preview": "https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/DOAW18DEN04-22-115-06/OG569H6_lYN-1.jpg",
+    "photos": [
+      "https://cdn.fynd.com/v2/falling-surf-7c8bb8/fyprod/wrkr/products/pictures/item/free/original/DOAW18DEN04-22-115-06/OG569H6_lYN-1.jpg",
+      "https://getketchadmin.getketch.com/product/8905980338216/660/TTJ6009500_1.JPG",
+      "https://m.media-amazon.com/images/I/5187sF13ZSL._AC_UY1100_.jpg",
+      "https://m.media-amazon.com/images/I/61WyfnrhHnL._AC_UY1100_.jpg",
+      "https://assets.myntassets.com/w_412,q_60,dpr_2,fl_progressive/assets/images/9306567/2019/4/15/955f3bd2-4e67-4f53-9a8a-7016877897b51555311650567-StyleStone-Women-Blue-Solid-Shirt-Dress-2551555311648859-1.jpg"
+    ],
+    "description": "Blue solid woven shirt dress, has a shirt collar, sleeveless, button closure, flared hem",
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "isAccessory": false,
+    "brand": "SASSAFRAS",
+    "price": 5200
+  },
+  {
+    "id": "6",
+    "name": "Unisex Silver-Toned Series 3 Smart Watch",
+    "preview": "https://assets.ajio.com/medias/sys_master/root/20230608/rVd3/6481e86542f9e729d731effb/-473Wx593H-4938378910-multi-MODEL3.jpg",
+    "photos": [
+      "https://assets.ajio.com/medias/sys_master/root/20230608/rVd3/6481e86542f9e729d731effb/-473Wx593H-4938378910-multi-MODEL3.jpg",
+      "https://www.reliancedigital.in/medias/Noise-NoiseFit-Arc-Smartwatch-Silver-Grey-494267956-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w0NzM0MHxpbWFnZS9qcGVnfGltYWdlcy9oNmIvaDQxLzEwMDY0ODg1MzgzMTk4LmpwZ3w3NTI2MmJhOTE2ZGNlZWM5NDA3NDNiYWIxYTNjMzBiZjc5MDE3NDMyOWFlZTFlNDQ2ZDM5OGYzM2MwMjgxZDA4",
+      "https://m.media-amazon.com/images/I/618XDR6D6NL.jpg"
+    ],
+    "description": "Low and high heart rate notifications. Emergency SOS. New Breathe watch faces. Automatic workout detection. New yoga and hiking workouts. Advanced features for runners like cadence and pace alerts. New head-to-head competitions. Activity sharing with friends. Personalized coaching. Monthly challenges and achievement awards. Walkie-Talkie, make phone calls, and send messages. Listen to Apple Music and Apple Podcasts. Use Siri in all-new ways. Silver aluminum case. Built-in GPS, GLONASS, Galileo, and QZSS. S3 with dual-core processor. W2 Apple wireless chip. Barometric altimeter Capacity 8GB. Optical heart sensor. 1 Year Manufacture Warranty",
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "isAccessory": true,
+    "brand": "Apple",
+    "price": 31999
+  },
+  {
+    "id": "7",
+    "name": "Unisex Black & Green Reflex 2.0 Smart Band",
+    "preview": "https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw4e8c84a2/images/Fastrack/Catalog/SWD90059PP05_3.jpg?sw=600&sh=600",
+    "photos": [
+      "https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw4e8c84a2/images/Fastrack/Catalog/SWD90059PP05_3.jpg?sw=600&sh=600",
+      "https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw4d76958b/images/Fastrack/Catalog/SWD90059PP05_7.jpg?sw=600&sh=600",
+      "https://m.media-amazon.com/images/S/aplus-media/sota/83b590bb-0f4e-4a36-8baa-ef45cd22863e._CR0,0,300,300_PT0_SX300__.jpg"
+    ],
+    "description": "The new Fastrack Reflex 2.0 Activity Tracker comes with all the features one could ask for! It comes in three colours that you can use to accentuate your athleisure, casual or party attire. Not only does it look uber cool in this cool grey & electric blue accent, further the TPU (Thermoplastic Polyurethane) strap ensures it gives you a snugfit while staying light on your wrist! It is a fitness band with smartwatch features. The band has Steps, Distance and Calorie Tracker, Sleep Tracker, Call & SMS Alerts, OLED Display, 10 Days Power Reserve, Vibration Alarm, Sedentary Reminder and is IPX6 Water Resistant. This band is compatible with both IOS and Android OS. It has a secure 'Pin' based pairing with your phone, for better protection. And, all of this at a price that is hard match anywhere else with quality and promise of the brand Fastrack. Move on and get one for yourself!",
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "isAccessory": true,
+    "brand": "Fastrack",
+    "price": 1999
+  },
+  {
+    "id": "8",
+    "name": "Unisex Black Galaxy Fit Fitness Band",
+    "preview": "https://m.media-amazon.com/images/I/71h5wkm-LFL.jpg",
+    "photos": [
+      "https://m.media-amazon.com/images/I/71h5wkm-LFL.jpg",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR2tlc1BlnmzRtpUmkEkSIf7Zql4oCkkfJclH7cqFUIGACL9208Z5FbloceBB4mJVdZOB_mFH0GTIOoVg82Syy4u2SFjELc2eDuGWWQBqMEe6kmxVmzcxpkSxrygP08JY2Gz2TLSBik9-g&usqp=CAc",
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRa4qoRHyWmPfuepnyYZ1UbWIgl-ghuWv5YSYqn3xSTOG5yT0yZJi44bmXIGOk741H5hPMyA2mSmw2Nk-lKZ7bfp9MkmCPR0Ji0LFrs1Q9_myXXD4kT775qw3w"
+    ],
+    "description": "Keep up your routine for even longer. With plenty of power to last throughout your daily workouts, you can pack in those longer hours to reach your fitness goals. What's more, you won't have to worry about disruptive battery discharge when tracking your activity.",
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "isAccessory": true,
+    "brand": "Samsung",
+    "price": 9990
+  },
+  {
+    "id": "9",
+    "name": "Gear IconX Black Cord-free Fitness Earbuds",
+    "preview": "https://5.imimg.com/data5/SELLER/Default/2024/2/388519035/TN/AF/DJ/3266985/samsung-gear-iconx-edition-cord-free-fitness-earbuds.jpg",
+    "photos": [
+      "https://5.imimg.com/data5/SELLER/Default/2024/2/388519035/TN/AF/DJ/3266985/samsung-gear-iconx-edition-cord-free-fitness-earbuds.jpg",
+      "https://5.imimg.com/data5/SELLER/Default/2024/2/388519043/FE/PD/HG/3266985/samsung-gear-iconx-edition-cord-free-fitness-earbuds.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDrlZC7SvLgCRqRLUXeGuWP4P2NVaz4j5RRw&s"
+    ],
+    "description": "Speak commands via Bixby or Google Voice and control your music with just a tap or swipe. Meet your fitness goals with speed, distance, calorie tracking and real-time voice guidance. Find the perfect fit with multiple sizes of ear-tips and wing-tips right in the box. iOS/Mac users: Samsung Gear IconX can be used to stream music or take calls from your iOS handset or tablet. Fitness Functions that require the use of Samsung S-Health app are not available for iOS. 5 hours of Bluetooth streaming, 7 hours of MP3 listening, 4 hours talk time. Warranty: 6 months. Warranty provided by the brand owner / manufacturer",
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "isAccessory": true,
+    "brand": "Samsung",
+    "price": 13990
+  },
+  {
+    "id": "10",
+    "name": "White 2nd Gen AirPods with Charging Case",
+    "preview": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT36HzL8AOh_DL6x12IuB6G0flZAURmHlYbuNm764snbsywwvp19Nc9vQPUXYnPWU1aSL6z6pLRQ-v9YQIxbKsolKMiW4TlbmvRILttWVNfZd4rNUBy8-dv91nCgd9pFe-fGijaQLo&usqp=CAc",
+    "photos": [
+      "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT36HzL8AOh_DL6x12IuB6G0flZAURmHlYbuNm764snbsywwvp19Nc9vQPUXYnPWU1aSL6z6pLRQ-v9YQIxbKsolKMiW4TlbmvRILttWVNfZd4rNUBy8-dv91nCgd9pFe-fGijaQLo&usqp=CAc",
+      "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR6qDld5QJlFLIURNwhQAnpIiASzVbBhbIJmHqmW5YCvm8AJTKXu6mBPxJzmf2wCOmuxuxbz3ySC3gfFNphJxwN6rnbUFoOBonu14OXsQWNify5uwbttoqhSnYG-n5cZ7eP8BkFTOc&usqp=CAc",
+      "https://img.tatacliq.com/images/i13/437Wx649H/MP000000004870365_437Wx649H_202309061157353.jpeg"
+    ],
+    "description": "AirPods with Charging Case: More than 24 hours listening time,3 up to 18 hours talk time8. AirPods (single charge): Up to 5 hours listening time,1 up to 3 hours talk time2. 15 minutes in the case equals up to 3 hours listening time4 or up to 2 hours talk time. Warranty: 1 year. Warranty provided by Brand/Manufacturer",
+    "size": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "isAccessory": true,
+    "brand": "Apple",
+    "price": 14999
+  }
+        ];
+
+        function displayProducts(products) {
+            const productListDiv = document.getElementById('product-list');
+            products.forEach(product => {
+                const productDiv = document.createElement('div');
+                productDiv.className = 'product';
+
+                productDiv.innerHTML = `
+                    <h2>${product.name}</h2>
+                    <img src="${product.preview}" alt="${product.name}" style="width: 200px; height: auto;">
+                    <p>${product.description}</p>
+                    <p><strong>Price:</strong> ₹${product.price}</p>
+                    <p><strong>Brand:</strong> ${product.brand}</p>
+                    <p><strong>Sizes Available:</strong> ${product.size.map((size, index) => size ? `Size ${index + 1}` : '').filter(size => size).join(', ')}</p>
+                    <p><strong>Accessory:</strong> ${product.isAccessory ? 'Yes' : 'No'}</p>
+                `;
+                productListDiv.appendChild(productDiv);
+            });
+        }
+
+        displayProducts(productList);
+    </script>
+</body>
+</html>
